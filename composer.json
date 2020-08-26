@@ -1,0 +1,35 @@
+{
+    "name": "devscreencast/json/response",
+    "description": "a simple class that returns a properly formatted json response with HTTP status  ",
+    "keywords": ["Json","Response","Api Response Class","PHP"],
+    "license": "MIT",
+    "type": "library",
+    
+    
+    "authors": 
+    [
+        {
+            "name": "TheAssasin",
+            "email": "sumittheassasin2030@gmail.com",
+            "homepage":"https://devscreencast.com"
+        }
+    ],
+    
+
+    "require": {
+       
+        "PHP":">5.3.0"
+
+    },
+
+    "autoload":  {
+       
+        "psr-4":{
+
+            "Devscreencast\\ResponseClass\\":"src/"
+
+                }
+
+
+                }
+}
